@@ -1,0 +1,35 @@
+{
+  "name": "expo",
+  "version": "0.0.1",
+  "description": "template for video hoisting",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development",
+    "serv": "webpack-dev-server --mode development --hot --color --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirilinsky/expo.git"
+  },
+  "author": "kir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kirilinsky/expo/issues"
+  },
+  "homepage": "https://github.com/kirilinsky/expo#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.5.1",
+    "bootstrap": "^4.3.1",
+    "css-loader": "^2.1.1",
+    "css-mqpacker": "^7.0.0",
+    "cssnano": "^4.1.10",
+    "mini-css-extract-plugin": "^0.5.0",
+    "path": "^0.12.7",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.3.0"
+  }
+}
